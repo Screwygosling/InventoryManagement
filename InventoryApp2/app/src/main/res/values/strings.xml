@@ -1,0 +1,20 @@
+<resources>
+    <string name="label_current_stock">Current Stock Levels</string>
+    <string name="hint_stock">Enter stock count</string>
+    <string name="cd_stock">Stock count field</string>
+
+    <string name="label_total_sales">Total Sales</string>
+    <string name="hint_sales">Enter sales count</string>
+    <string name="cd_sales">Sales count field</string>
+
+    <string name="label_total_orders">Total Orders</string>
+    <string name="hint_orders">Enter orders count</string>
+    <string name="cd_orders">Orders count field</string>
+
+    <string name="button_update_stats">Update Statistics</string>
+    <string name="text_initial_results">Enter values above and tap Update.</string>
+    <string name="cd_results">Results summary</string>
+    <string name="button_generate_report">Generate Report</string>
+
+    <string name="app_name">InventoryApp</string>
+</resources>

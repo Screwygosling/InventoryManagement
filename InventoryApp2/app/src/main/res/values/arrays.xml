@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shipment_statuses">
+        <item>Shipped</item>
+        <item>In Transit</item>
+        <item>Delivered</item>
+        <item>Returned</item>
+        <item>Cancelled</item>
+    </string-array>
+</resources>
