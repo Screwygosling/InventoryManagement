@@ -21,13 +21,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(s);
         setContentView(R.layout.activity_main);
 
-        // Initial “Add item” UI only used in Inventory fragment’s RecyclerView
-        // But we’ll keep edit/add here for simplicity
-        // (You can hide these if you want a cleaner tabs-only look)
         EditText editName = new EditText(this);
         Button btnAdd = new Button(this);
 
-        // RecyclerView for items (used by fragment)
         adapter = new ItemAdapter(itemList);
 
         BottomNavigationView nav = findViewById(R.id.bottom_nav);
