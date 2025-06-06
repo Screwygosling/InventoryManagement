@@ -8,13 +8,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Container for swapping fragments -->
+    <pl.droidsonroids.gif.GifImageView 
+    android:id="@+id/bg_galaxy" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:scaleType="centerCrop" 
+    android:src="@drawable/galaxy_bg" /> 
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
-    <!-- Bottom navigation bar -->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
